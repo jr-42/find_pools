@@ -47,7 +47,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'FindAPool=FindAPool.main:piscine_find_entry_point'
+            'FindAPool=FindAPool.worker:piscine_find_entry_point'
         ]
     }
 )
