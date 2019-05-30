@@ -25,9 +25,9 @@ with open("README.rst", "r") as freadme:
     long_description = freadme.read()
 
 setup(
-    name='',
-    author='',
-    url='https://gitlab.com/f....',
+    name='FindAPool',
+    author='J. J. Reed',
+    url='https://github.com/jr-42/find_pools',
     use_scm_version=True,
     description='',
     long_description=long_description,
