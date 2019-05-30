@@ -21,7 +21,7 @@ with open('requirements/dev.pip') as f:
 with open('requirements/docs.pip') as f:
     DOCS_REQS = f.read().splitlines()
 
-with open("README.rst", "r") as freadme:
+with open("README.md", "r") as freadme:
     long_description = freadme.read()
 
 setup(

@@ -1,0 +1,4 @@
+- Complete tests
+- Change prints to logger
+- Integrate imagesplitter for large images
+- Add multtiproc
