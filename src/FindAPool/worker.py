@@ -21,10 +21,11 @@ class Worker(object):
         images = os.listdir(folder)
         images = [i for i in images if (i[-3:] == 'png')]
 
+        if len(images) == 0:
+            raise Exception('There are no images in folder : ', folder)
+
         print('----')
-
         print('List of images in {}:'.format(folder), images)
-
         print('----')
 
         for i, image in enumerate(images):
