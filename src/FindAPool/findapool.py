@@ -9,14 +9,7 @@ from sklearn.cluster import MeanShift
 class FindAPool:
 
     def __init__(self):
-        self.image = None
-        self.rgb = None
-        self.hsv = None
-        self.piscine_locs = None
-        self.coloured_img = None
-        self.with_piscines = None
-        self.num_pools_img = None
-        self.pisc_locs = None
+        pass
 
     @staticmethod
     def load_image(image):
